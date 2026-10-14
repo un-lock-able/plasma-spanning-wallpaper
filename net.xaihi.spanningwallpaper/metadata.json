@@ -9,7 +9,7 @@
     ],
     "Description": "Spans one image across all monitors, slicing the correct piece per screen",
     "Icon": "preferences-desktop-wallpaper",
-    "Id": "org.local.spanningwallpaper",
+    "Id": "net.xaihi.spanningwallpaper",
     "License": "GPLv2+",
     "Name": "Spanning Wallpaper"
   },

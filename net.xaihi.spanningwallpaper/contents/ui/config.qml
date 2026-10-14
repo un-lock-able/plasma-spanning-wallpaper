@@ -12,7 +12,7 @@ Kirigami.FormLayout {
     property string cfg_ImageDefault
 
     RowLayout {
-        Kirigami.FormData.label: i18nd("plasma_wallpaper_org.local.spanningwallpaper", "Image:")
+        Kirigami.FormData.label: i18nd("plasma_wallpaper_net.xaihi.spanningwallpaper", "Image:")
 
         QtControls.TextField {
             id: pathField
@@ -23,15 +23,15 @@ Kirigami.FormLayout {
 
         QtControls.Button {
             icon.name: "document-open"
-            text: i18nd("plasma_wallpaper_org.local.spanningwallpaper", "Choose…")
+            text: i18nd("plasma_wallpaper_net.xaihi.spanningwallpaper", "Choose…")
             onClicked: fileDialog.open()
         }
     }
 
     FileDialog {
         id: fileDialog
-        title: i18nd("plasma_wallpaper_org.local.spanningwallpaper", "Choose Image")
-        nameFilters: [i18nd("plasma_wallpaper_org.local.spanningwallpaper", "Image files (*.png *.jpg *.jpeg *.bmp *.webp *.tiff)")]
+        title: i18nd("plasma_wallpaper_net.xaihi.spanningwallpaper", "Choose Image")
+        nameFilters: [i18nd("plasma_wallpaper_net.xaihi.spanningwallpaper", "Image files (*.png *.jpg *.jpeg *.bmp *.webp *.tiff)")]
         onAccepted: {
             root.cfg_Image = selectedFile
             pathField.text = root.cfg_Image
