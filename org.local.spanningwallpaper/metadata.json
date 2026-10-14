@@ -1,0 +1,17 @@
+{
+  "KPackageStructure": "Plasma/Wallpaper",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "un-lock-able",
+        "Email": "gaogao174561@outlook.com"
+      }
+    ],
+    "Description": "Spans one image across all monitors, slicing the correct piece per screen",
+    "Icon": "preferences-desktop-wallpaper",
+    "Id": "org.local.spanningwallpaper",
+    "License": "GPLv2+",
+    "Name": "Spanning Wallpaper"
+  },
+  "X-KDE-ParentApp": "org.kde.plasmashell"
+}
